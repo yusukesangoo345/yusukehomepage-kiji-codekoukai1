@@ -1,0 +1,222 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+}
+
+main {
+    flex: 1; /* 残りのスペースを占める */
+    padding: 20px;
+}
+
+aside {
+    width: 25%; /* サイドバーの幅 */
+    background-color: white;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.article-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.read-more:hover {
+    background-color: #0056b3;
+}
+.pasokon_dansei {
+    height: 200px;
+}
+#sns {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.sns-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sns-list li {
+    margin: 10px 0;
+}
+
+.sns-list a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.sns-list a:hover {
+    text-decoration: underline;
+}
+#sns {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.sns-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sns-list li {
+    margin: 10px 0;
+}
+
+.sns-list a {
+    text-decoration: none;
+    color: #007bff;
+    display: flex;
+    align-items: center; /* アイコンとテキストを中央揃え */
+}
+
+.sns-list a i {
+    margin-right: 8px; /* アイコンとテキストの間にスペースを追加 */
+}
+
+.sns-list a:hover {
+    text-decoration: underline;
+}
+#categories {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.category-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.category-list li {
+    margin: 10px 0;
+}
+
+.category-list a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.category-list a:hover {
+    text-decoration: underline;
+}
+.button-container {
+    text-align: right; /* ボタンを右揃えにする */
+    margin-top: 20px; /* ボタンの上にスペースを追加 */
+}
+
+.category-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff; /* ボタンの背景色 */
+    color: white; /* ボタンの文字色 */
+    text-decoration: none; /* 下線を削除 */
+    border-radius: 5px; /* ボタンの角を丸くする */
+    transition: background-color 0.3s; /* ホバー時の背景色の変化を滑らかにする */
+}
+
+.category-button:hover {
+    background-color: #0056b3; /* ホバー時の背景色 */
+}
+.post-date {
+    color: gray; /* 日付の色 */
+    font-size: 0.9em; /* フォントサイズ */
+    margin-top: 10px; /* 上にスペースを追加 */
+}
+.post-author {
+    font-weight: bold; /* 太字 */
+    margin-top: 5px; /* 上にスペースを追加 */
+    color: #333; /* 色 */
+}
+.container {
+    overflow: hidden; /* スクロールを隠す */
+    position: relative; /* 相対位置に設定 */
+    width: 100%; /* コンテナの幅を100%に */
+}
+
+.highlight-text {
+    background-color: yellow; /* 蛍光ペンの色 */
+    padding: 0 5px; /* 左右にスペースを追加 */
+    border-radius: 3px; /* 角を丸くする */
+    transition: background-color 0.3s; /* ホバー時の背景色の変化を滑らかにする */
+}
+.jougesen {
+    padding: 1rem 2rem;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+  }
+  .author-info {
+    margin-bottom: 15px; /* 執筆者情報の下にスペース */
+}
+
+.share-links a {
+    margin-right: 10px; /* リンクの間にスペース */
+    text-decoration: none; /* 下線を消す */
+}
+
+.share-links i {
+    margin-right: 5px; /* アイコンとテキストの間にスペース */
+}
