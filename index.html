@@ -1,133 +1,63 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    </head>    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>記事サイト</title>
-    <link rel="stylesheet" href="style.css">
+    <title>ブログ</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
     <header>
+        <h1 class="title">ブログ</h1>
         <nav>
             <ul>
-                <li><a href="https://yusukesangoo345.github.io/yusukehomepage-kijisite/">ホーム</a></li>
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+                <li><a href="blog.html">ブログ</a></li>
             </ul>
         </nav>
     </header>
 
-    <div class="container">
-        <main>
-            <section>
-                <h2>コードを公開しました</h2>
-                <div class="button-container">
-                    <a href="programming.html" class="category-button">プログラミング</a>
-                    <a href="github.html" class="category-button">Github</a>
-                </div>
-                <p class="post-date">2024年10月16日</p>
-                <p class="post-author">執筆者: 祐介</p>
-                
-                <article>
-                    <p class="post-content">こんにちは。祐介と申します。</p>
-                    <div class="container">
-                        <div class="container">
-                            <p>なにげにこれが<span class="highlight-text">初投稿</span>なんですが、「コードを公開しました」というので良かったのかが分からないｗ</p>
-                        </div>                      
-                    </div>                    
+    <main class="content">
+        <section id="blog">
+            <h2>ブログ記事一覧</h2>
+            <div class="blog-posts">
+                <article class="blog-post">
+                    <h3><a href="post1.html">ブログ記事タイトル 1</a></h3>
+                    <p>この記事の概要です。クリックして詳細をお読みください。</p>
                 </article>
-                <h2 class="jougesen">本題</h2>
-                <p>Githubにて、コードを配布いたしました。</p>
-                <a href= "https://github.com/yusukesangoo345/Simple-Site-design-Japanese-chatgpt-" target="_blank" >こちら</a>から！ 
+                <article class="blog-post">
+                    <h3><a href="post2.html">ブログ記事タイトル 2</a></h3>
+                    <p>この記事の概要です。クリックして詳細をお読みください。</p>
+                </article>
+                <article class="blog-post">
+                    <h3><a href="post3.html">ブログ記事タイトル 3</a></h3>
+                    <p>この記事の概要です。クリックして詳細をお読みください。</p>
+                </article>
+            </div>
+        </section>
 
-                <div class="author-info">
-                    <img src="https://iconbu.com/wp-content/uploads/2020/01/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E3%82%92%E3%81%99%E3%82%8B%E7%94%B7%E6%80%A7%E3%81%AE%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88.jpg" class="pasokon_dansei">
-                    <p>執筆者: <strong>祐介</strong></p>
-                    <div class="share-links">
-                        <p>この記事をシェアする:</p>
-                        <a href="https://twitter.com/share?url=あなたのページのURL" target="_blank">
-                            <i class="fab fa-twitter"></i> Twitter
-                        </a>
-                        <a href="https://www.facebook.com/sharer/sharer.php?u=あなたのページのURL" target="_blank">
-                            <i class="fab fa-facebook"></i> Facebook
-                        </a>
-                        <a href="https://www.instagram.com/あなたのユーザーネーム" target="_blank">
-                            <i class="fab fa-instagram"></i> Instagram
-                        </a>
-                        </a>
-                    </div>
-                    
-                </div>                
+        <!-- 右サイドバー -->
+        <aside class="sidebar">
+            <section class="author-info">
+                <h3>執筆者情報</h3>
+                <img src="https://pbs.twimg.com/profile_images/1854756563195772928/CVsY89Me_400x400.jpg" alt="執筆者のアイコン" class="author-icon">
+                <p>岡田 祐介</p>
             </section>
-        </main>
 
-        <aside>
-            <section id="about">
-                <h2>私について</h2>
-                <img src="https://iconbu.com/wp-content/uploads/2020/01/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E3%82%92%E3%81%99%E3%82%8B%E7%94%B7%E6%80%A7%E3%81%AE%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88.jpg" alt="" class="pasokon_dansei">
-                <h4>祐介</h4>
-                <p>名ばかりのクリエイター。ブログやyoutube活動を主にやっている。生息地はXである</p>
-                </section>
-                <section id="sns">
-                    <h2>SNS</h2>
-                    <ul class="sns-list">
-                        <li>
-                            <a href="https://x.com/Yusukechannel_4" target="_blank">
-                                <i class="fab fa-twitter"></i> X (本垢)
-                            </a>
-                        </li>
-                        <a>
-                            <li>
-                                <a herf="https://x.com/chynxingti1" target="_blank">
-                                    <i class="fab fa-twitter"></i> X(開発垢)
-                            </li>
-                        </a>
-                        <li>
-                            <a href="https://instagram.com/your_profile" target="_blank">
-                                <i class="fab fa-instagram"></i> Instagram
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://yusukesangoo345.github.io/yusukenohomepage/" target="_blank">
-                                <i class="fas fa-blog"></i> ブログ
-                            </a>
-                        </li>
-                    </ul>
-                </section>
-                <section id="categories">
-                    <h2>カテゴリ</h2>
-                    <ul class="category-list">
-                        <li><a href="category1.html">カテゴリ 1</a></li>
-                        <li><a href="category2.html">カテゴリ 2</a></li>
-                        <li><a href="category3.html">カテゴリ 3</a></li>
-                    </ul>
-                    </section>
-                    <section id="new-articles">
-                        <h2>新着記事</h2>
-                        <ul class="article-list">
-                            <li>
-                                <a href="article1.html">新着記事タイトル 1</a>
-                                <span class="date">2024年10月1日</span>
-                            </li>
-                            <li>
-                                <a href="article2.html">新着記事タイトル 2</a>
-                                <span class="date">2024年10月5日</span>
-                            </li>
-                        </ul>
-                    </section>
-                    
-                    <section id="monthly-articles">
-                        <h2>月ごとの記事</h2>
-                        <ul class="month-list">
-                            <li><a href="2024-10.html">2024年10月</a></li>
-                        </ul>
-                    </section>
-                    
-
-
-    <script src="script.js"></script>
-
+            <section class="categories">
+                <h3>カテゴリー</h3>
+                <ul>
+                    <li><a href="#">お知らせ</a></li>
+                    <li><a href="#">Wikipedia</a></li>
+                    <li><a href="#">SNS</a></li>
+                    <li><a href="#">一般</a></li>
+                </ul>
+            </section>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2024 Yusuke Okada</p>
+    </footer>
 </body>
 </html>
